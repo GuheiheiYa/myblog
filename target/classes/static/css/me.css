@@ -1,0 +1,241 @@
+
+body{
+    background-image: url("akl1.jpg");
+    background-attachment:fixed;
+    background-size: 100%;
+    no-repeat: center top;
+    height: 100%;
+    width: 100%;
+}
+
+.m-body{
+    background-image: url("卢克西.png");
+    background-attachment:fixed;
+    background-size: 100%;
+    no-repeat: center top;
+    height: 100%;
+    width: 100%;
+}
+
+.m-bg{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+.m-bg-class_outer {
+    display: block;
+    /*width: 550px;*/
+    /*height: 276px;*/
+    /*margin: 10px auto 0 0;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.m-bg-type_outer {
+    display: block;
+    /*margin: 10px auto 0 0;*/
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.m-bg-class_cover {
+    width: 100%;
+    height: 750px;
+    line-height: 50px;
+    padding-left: 6px;
+    background-color: rgba(0, 0, 0, .60);
+    /*color: #FFFFFF;*/
+    /*font-size: 26px;*/
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+/**--------container---------**/
+.m-container{
+    max-width: 72em !important;
+    margin: auto !important;
+}
+.m-container-small{
+    max-width: 65em !important;
+    margin: auto !important;
+}
+
+.m-padded-mini {
+    padding: 0.2em !important;
+}
+.m-padded-tiny {
+    padding: 0.3em !important;
+}
+
+.m-padded-tb-mini {
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+.m-padded-tb-tiny{
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+.m-padded-tb-small{
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+.m-padded-tb{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+.m-padded-tb-large{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+.m-padded-tb-big{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.m-padded-tb-huge{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
+.m-padded-tb-massive{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+
+.m-padded-lf{
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+
+
+.m-teal {
+    color: #00B5AD !important;
+}
+
+
+/**--------text---------**/
+.m-text{
+    font-weight: 300 !important;
+    letter-spacing: 6px !important;
+    line-height: 1.6;
+}
+
+.m-text-thin{
+    font-weight: 300 !important;
+}
+
+/*间隔*/
+.m-text-spaced{
+    letter-spacing: 10px !important;
+}
+
+.m-text-lined{
+    line-height: 1.8;
+}
+
+/*----------margin---------------*/
+.m-margin-tb-tiny{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+
+.m-margin-bottom-small{
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+/*----------position---------------*/
+.m-right-top{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.m-fixed{
+    position: fixed !important;
+    z-index: 10 !important;
+}
+.m-right-bottom{
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+
+
+.m-margin-top-small{
+   margin: 1em !important;
+}
+.m-margin-top{
+    margin-top: 2em !important;
+}
+.m-margin-top-large{
+    margin-top: 3em !important;
+}
+
+/*----------透明度---------------*/
+/*-----opacity------*/
+.m-opacity {
+    opacity: 0.9 !important;
+}
+.m-opacity-mini {
+    opacity: 0.8 !important;
+}
+.m-opacity-tiny {
+    opacity: 0.6 !important;
+}
+.m-opacity-small {
+    opacity: 0.4 !important;
+}
+
+
+/*display*/
+.m-inline-block{
+    display: inline-block !important;
+}
+
+/*------black----------*/
+.m-black{
+    color: #333;
+}
+
+.m-heise{
+    color: #0a001f;
+}
+
+.m-white{
+    color: aliceblue;
+}
+
+.m-mobile-show{
+    display: none !important;
+}
+
+.m-shadow-small{
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .m-mobile-hide{
+        display: none !important;
+    }
+
+    .m-mobile-show{
+        display: block !important;
+    }
+
+    .m-mobile-wide{
+        width: 100% !important;
+    }
+
+    .m-padded-lf-responsive{
+        padding-left: 0em !important;
+        padding-right: 0em !important;
+    }
+
+
+}
+
+
